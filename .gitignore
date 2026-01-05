@@ -1,0 +1,25 @@
+# Environment files
+backend/.env
+*.env
+config.js
+
+# Lambda deployment packages
+backend/*.zip
+backend/get_url.zip
+backend/post_url.zip
+
+# Python
+backend/get_url/__pycache__/
+backend/post_url/__pycache__/
+*.pyc
+*.pyo
+
+# Terraform
+infrastructure/*.tfstate
+infrastructure/*.tfstate.*
+infrastructure/.terraform/
+infrastructure/.terraform.lock.hcl
+
+# Temporary files
+*.tmp
+*.log
